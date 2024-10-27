@@ -1,0 +1,45 @@
+<!-- sidebar.component.html -->
+<div class="navbarMobile">
+    <div class="navigate">
+        <div class="menu-icon" (click)="openSidebar()">&#9776;</div>
+        <div class="menu-icon-logo"> LOGO </div>
+        <div class="menu-icon-login">
+            <div class="menu-icon-login-btn">
+                Login
+            </div> 
+         </div>
+    </div>
+
+
+<div class="sidebar" [class.active]="isSidebarOpen">
+    <span class="cancel-btn" (click)="closeSidebar()">&#10006;</span>
+    <ul>
+        <li>Product</li>
+        <li>Solutions</li>
+        <li>Resources</li>
+        <li>Open Source</li>
+        <li>Enterprise</li>
+        <li>Pricing</li>
+    </ul>
+</div>
+</div>
+<div class="navbardesktop">
+    <div class="left-navigation">
+        <div class="logo">
+            <!-- <img src="your-logo.png" alt="Esports Bridge Logo"> -->
+            <span>Esports Bridge Logo</span>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Players</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Tournaments</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Product</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="righ-navigation">
+        <div class="auth" class="login"> Login </div>
+    </div>
+</div>

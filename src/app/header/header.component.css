@@ -1,0 +1,164 @@
+@media (max-width: 480px) {
+ .navbardesktop{
+    display: none;
+ }   
+/* sidebar.component.css */
+.navbarMobile {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    background-color: #000000;
+    border-bottom: 3px solid #3a938a;
+}
+
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+/* Styles for the three-line icon */
+.menu-icon {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    color: #fff;
+    /* position: absolute;
+    top: 20px;
+    left: 20px; */
+    /* border: 1px solid #ff0037; */
+}
+.menu-icon-logo{
+    padding: 15px;
+    /* border: 1px solid #ff0037; */
+    text-align: center;
+    color: #fff;
+}
+.menu-icon-login{
+    padding: 10px 10px 10px 0px;
+    color: #0ba66b;
+}
+.menu-icon-login-btn{
+     border-radius: 5px;
+     padding: 10px;
+     background-color: #0ba66b;
+     color: #000;
+     padding: 10px 15px;
+    font-size: 0.9rem;
+    background-color: #0ba66b;
+    color: #004400;
+    border: none;
+    cursor: pointer;
+}
+/* Sidebar panel styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.sidebar.active {
+    transform: translateX(0);
+}
+
+/* Sidebar items */
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    /* background-color: #000000; */
+}
+
+.sidebar ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+}
+
+.sidebar ul li:hover {
+    background-color: #333;
+}
+
+/* Cancel button */
+.cancel-btn {
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+}
+
+/* normal css....... */
+@media (min-width: 490px) {
+.navbarMobile{
+    display: none;
+}
+.navbardesktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0d1117;
+    border-bottom: 3px solid #3a938a;
+    height: 2vh;
+    
+}
+.left-navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    color: #fff;
+    width: 150px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation ul li {
+    margin: 0 15px;
+}
+.navigation ul li:hover{
+    padding-right: 4px;
+    height: 3vh;
+    border-right: 3px solid #0ba66b;
+    border-bottom: 3px solid #0ba66b;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.auth a {
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login {
+    background-color: #0ba66b; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    /* border: 1px solid #f3fffa; */
+    color: #000000;
+}
+}

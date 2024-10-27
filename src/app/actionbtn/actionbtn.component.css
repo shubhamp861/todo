@@ -1,0 +1,40 @@
+
+.grid-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0% 15%;
+    background: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .grid-item {
+    width: 32%;
+    height: 240px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 8.1);
+    margin-top: 20px;
+  }
+  .grid-item img{
+    display: block;
+    margin: 0% 15%;
+    /* width: 100%; */
+  }
+
+  .svg-icon {
+    max-width: 80px;
+    margin: 0 auto 15px auto;
+  }
+
+  /* Responsive Grid */
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+
+  .actionbtn {
+    
+    background-color: #0d1117;
+  }
