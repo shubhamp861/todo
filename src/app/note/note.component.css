@@ -128,7 +128,7 @@ div {
     }
     .main-content {
         text-align: left;   
-        height: 55vh;
+        height: 32vh;
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 73.76% 96.1%, 62.75% 89.75%, 54.69% 96.1%, 33.98% 100%, 14.25% 92.61%, 0% 100%);
        
     }
