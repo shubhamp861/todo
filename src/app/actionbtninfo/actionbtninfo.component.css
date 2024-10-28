@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 900px;  
+    margin: 0 auto;   
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 30px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+  }
+  
+  .logo img {
+    width: 80px;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  
+  .text {
+    flex: 2;
+  }
+  .headingTeam{
+    color: #8a4eff;
+    font-size: xx-large;
+    font-weight: bold; 
+  }
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .team-highlight {
+    color: #8a4eff; /* Purple color for "Team" */
+  }
+  
+  .player-highlight {
+    color: #ff6b00; /* Orange color for "Player" */
+  }
+  
+  .subtitle {
+    font-size: 13px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  
+  .btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .purple {
+    background-color: #8a4eff;
+  }
+  
+  .purple-outline {
+    background-color: transparent;
+    color: #8a4eff;
+    border: 2px solid #8a4eff;
+  }
+  
+  .orange {
+    background-color: #ff6b00;
+  }
+  
+  .orange-outline {
+    background-color: transparent;
+    color: #ff6b00;
+    border: 2px solid #ff6b00;
+  }
+  
+  .steps {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .steps-heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .step {
+    padding-left: 20px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .actions {
+      align-items: center;
+    }
+  }
+  

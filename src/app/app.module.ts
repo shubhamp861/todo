@@ -8,6 +8,7 @@ import { ActionbtnComponent } from './actionbtn/actionbtn.component';
 import { TestcompComponent } from './testcomp/testcomp.component';
 import { PlayerActionComponent } from './actionbtn/player-action/player-action.component';
 import { GameActionComponent } from './actionbtn/game-action/game-action.component';
+import { ActionbtninfoComponent } from './actionbtninfo/actionbtninfo.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { GameActionComponent } from './actionbtn/game-action/game-action.compone
     ActionbtnComponent,
     TestcompComponent,
     PlayerActionComponent,
-    GameActionComponent
+    GameActionComponent,
+    ActionbtninfoComponent
   ],
   imports: [
     BrowserModule,
