@@ -15,7 +15,7 @@ div {
     background-size: cover;
     background-position: center;
     text-align: left;
-    padding: 50px 20px;
+    /* padding: 50px 20px; */
     /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 73.76% 96.1%, 62.75% 89.75%, 54.69% 96.1%, 33.98% 100%, 14.25% 92.61%, 0% 100%);       */
 }
 .content-wrapper-info {
@@ -78,29 +78,7 @@ background: linear-gradient(90deg, rgba(2,3,40,0.891281512605042) 50%, rgba(84,2
     font-size: 1rem;
 }
 
-/* Responsiveness */
-@media (max-width: 768px) {
-    .navigation ul {
-        display: none;
-    }
 
-    .main-content {
-        padding: 30px 15px;
-    }
-
-    .content-wrapper-info h1 {
-        font-size: 2rem;
-    }
-
-    .stats {
-        flex-direction: column;
-    }
-
-    .cta .premium-btn {
-        padding: 12px 20px;
-        font-size: 1rem;
-    }
-}
 
 @media (max-width: 480px) {
   
@@ -130,7 +108,8 @@ background: linear-gradient(90deg, rgba(2,3,40,0.891281512605042) 50%, rgba(84,2
         display: flex;
     }
     .main-content {
-        text-align: left;   
+        padding: 0;
+        /* text-align: left;    */
         /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 73.76% 96.1%, 62.75% 89.75%, 54.69% 96.1%, 33.98% 100%, 14.25% 92.61%, 0% 100%); */
        
     }
